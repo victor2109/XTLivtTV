@@ -1,0 +1,55 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BarrageRenderer (1.8.1)
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MLEmojiLabel (1.0.2):
+    - TTTAttributedLabel (~> 1.13.4)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (1.1.1)
+  - SVPullToRefresh (0.4.1)
+  - TTTAttributedLabel (1.13.4)
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BarrageRenderer (~> 1.8.0)
+  - Masonry (~> 1.0.1)
+  - MBProgressHUD (~> 0.9.2)
+  - MLEmojiLabel (~> 1.0.0)
+  - SDWebImage (~> 3.8.1)
+  - SVProgressHUD
+  - SVPullToRefresh
+  - YYModel
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f9f92467cc2ad03ea9961c65bb75028ea4d49a9
+  BarrageRenderer: a10b907f5989559de70ca629e0c7038e1a80f2e0
+  Masonry: 1a8c8de06540777a02c86cc2abfc3950ede7cd22
+  MBProgressHUD: fedcbb887a3d162dbffee8e1b92a800309ce67f0
+  MLEmojiLabel: 90041ad80dfa23735e75b952e36af8351d946cf3
+  SDWebImage: c0f05da80ad848542fb6ea8422621c74079bd5c5
+  SVProgressHUD: 3c03031dff855ecbf64f89b1d5cf193f7ff0aa9b
+  SVPullToRefresh: ed2780467bd4a16a346388e6f628ce983d100f62
+  TTTAttributedLabel: 7da3b282ac7f13b82dfa12c704954014ee90c932
+  YYModel: 610bd0c0a0c707f7676874087e37aa4f40fb92de
+
+PODFILE CHECKSUM: 1d8256ccb77b0b2b141180f1da3b687930ab0739
+
+COCOAPODS: 1.2.0
