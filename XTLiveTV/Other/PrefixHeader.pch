@@ -1,0 +1,54 @@
+//
+//  PrefixHeader.pch
+//  XTLiveTV
+//
+//  Created by victor on 17/3/2.
+//  Copyright © 2017年 victor. All rights reserved.
+//
+
+#pragma mark - 自定义NSLog
+
+#ifdef __OBJC__
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t  %s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//#import "IJKMediaFramework/IJKMediaFramework.h"
+#import <Masonry.h>
+#import <YYModel.h>
+#import "UIView+Frame.h"
+
+#define XTColor(r, g, b) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1.0]
+#define XTColorA(r, g, b, a) [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:a]
+#define XTRandomColor [UIColor colorWithRed:((arc4random_uniform(255)) / 255.0) green:((arc4random_uniform(255)) / 255.0) blue:((arc4random_uniform(255)) / 255.0) alpha:1.0]
+
+// 屏幕宽/高
+#define XTScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define XTScreenHeight [UIScreen mainScreen].bounds.size.height
+
+// 首页的选择器的宽度
+#define kHome_Seleted_Item_W 60
+#define kDefaultMargin       10
+
+#pragma mark - 通知
+// 当前没有关注的主播, 去看热门主播
+#define kNotifyToseeHotPlayer @"kNotifyToseeHotPlayer"
+// 当前的直播控制器即将消失
+#define kNotifyLiveWillDisappear @"kNotifyLiveWillDisappear"
+// 点击了用户
+#define kNotifyClickUser @"kNotifyClickUser"
+// 自动刷新最新主播界面
+#define kNotifyRefreshNew @"kNotifyRefreshNew"
+
+
+#endif /* PrefixHeader_pch */
+
+
+#endif

@@ -9,14 +9,28 @@
 /* Begin PBXBuildFile section */
 		18AA02FC14B0984666350333 /* libPods-XTLiveTV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D9FD72D83F7D8A938ADA9AF /* libPods-XTLiveTV.a */; };
 		574455A91E67EEB600B87CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574455A81E67EEB600B87CF3 /* main.m */; };
-		574455AC1E67EEB600B87CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574455AB1E67EEB600B87CF3 /* AppDelegate.m */; };
 		574455B41E67EEB600B87CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574455B31E67EEB600B87CF3 /* Assets.xcassets */; };
 		574455B71E67EEB600B87CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574455B51E67EEB600B87CF3 /* LaunchScreen.storyboard */; };
-		574455EF1E68202300B87CF3 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 574455EE1E68202300B87CF3 /* IJKMediaFramework.framework */; };
 		574456011E6820F500B87CF3 /* danmu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574455FC1E6820F400B87CF3 /* danmu.plist */; };
 		574456021E6820F500B87CF3 /* login_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 574455FD1E6820F500B87CF3 /* login_video.mp4 */; };
 		574456031E6820F500B87CF3 /* loginmovie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 574455FE1E6820F500B87CF3 /* loginmovie.mp4 */; };
 		574456041E6820F500B87CF3 /* user.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574456001E6820F500B87CF3 /* user.plist */; };
+		574456091E6910D400B87CF3 /* XTTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456081E6910D400B87CF3 /* XTTabBarController.m */; };
+		5744560C1E6910E500B87CF3 /* XTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744560B1E6910E500B87CF3 /* XTNavigationController.m */; };
+		5744560F1E69110E00B87CF3 /* XTHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744560E1E69110E00B87CF3 /* XTHomeController.m */; };
+		5744561E1E6914A500B87CF3 /* XTShowTimeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744561D1E6914A500B87CF3 /* XTShowTimeController.m */; };
+		574456461E6959D600B87CF3 /* XTLiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456451E6959D600B87CF3 /* XTLiveController.m */; };
+		5744564C1E6959FB00B87CF3 /* XTProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744564B1E6959FB00B87CF3 /* XTProfileController.m */; };
+		5744564F1E695A0800B87CF3 /* XTLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744564E1E695A0800B87CF3 /* XTLoginController.m */; };
+		574456531E695DEF00B87CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456511E695DEF00B87CF3 /* AppDelegate.m */; };
+		574456581E6967BF00B87CF3 /* XTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456571E6967BF00B87CF3 /* XTTabBar.m */; };
+		574456621E69707000B87CF3 /* XTRecordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456611E69707000B87CF3 /* XTRecordController.m */; };
+		574456651E69739D00B87CF3 /* XTSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456641E69739D00B87CF3 /* XTSelectedView.m */; };
+		574456681E69759000B87CF3 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456671E69759000B87CF3 /* UIView+Frame.m */; };
+		574456901E6D3C1D00B87CF3 /* XTNewStarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5744568F1E6D3C1D00B87CF3 /* XTNewStarViewController.m */; };
+		574456931E6D3C3700B87CF3 /* XTHotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456921E6D3C3700B87CF3 /* XTHotViewController.m */; };
+		574456961E6D3C4900B87CF3 /* XTCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456951E6D3C4900B87CF3 /* XTCareViewController.m */; };
+		574456991E6D5B6900B87CF3 /* XTLiveFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 574456981E6D5B6900B87CF3 /* XTLiveFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,17 +38,46 @@
 		2F09B51535720C9261F94D94 /* Pods-XTLiveTV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTLiveTV.release.xcconfig"; path = "Pods/Target Support Files/Pods-XTLiveTV/Pods-XTLiveTV.release.xcconfig"; sourceTree = "<group>"; };
 		574455A41E67EEB600B87CF3 /* XTLiveTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTLiveTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574455A81E67EEB600B87CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		574455AA1E67EEB600B87CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		574455AB1E67EEB600B87CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		574455B31E67EEB600B87CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		574455B61E67EEB600B87CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		574455B81E67EEB600B87CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		574455EE1E68202300B87CF3 /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 		574455FC1E6820F400B87CF3 /* danmu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = danmu.plist; sourceTree = "<group>"; };
 		574455FD1E6820F500B87CF3 /* login_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = login_video.mp4; sourceTree = "<group>"; };
 		574455FE1E6820F500B87CF3 /* loginmovie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = loginmovie.mp4; sourceTree = "<group>"; };
 		574456001E6820F500B87CF3 /* user.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = user.plist; sourceTree = "<group>"; };
-		574456061E6824E300B87CF3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		574456071E6910D400B87CF3 /* XTTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTabBarController.h; sourceTree = "<group>"; };
+		574456081E6910D400B87CF3 /* XTTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTabBarController.m; sourceTree = "<group>"; };
+		5744560A1E6910E500B87CF3 /* XTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNavigationController.h; sourceTree = "<group>"; };
+		5744560B1E6910E500B87CF3 /* XTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNavigationController.m; sourceTree = "<group>"; };
+		5744560D1E69110E00B87CF3 /* XTHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHomeController.h; sourceTree = "<group>"; };
+		5744560E1E69110E00B87CF3 /* XTHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHomeController.m; sourceTree = "<group>"; };
+		5744561C1E6914A500B87CF3 /* XTShowTimeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTShowTimeController.h; sourceTree = "<group>"; };
+		5744561D1E6914A500B87CF3 /* XTShowTimeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTShowTimeController.m; sourceTree = "<group>"; };
+		574456441E6959D600B87CF3 /* XTLiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLiveController.h; sourceTree = "<group>"; };
+		574456451E6959D600B87CF3 /* XTLiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLiveController.m; sourceTree = "<group>"; };
+		5744564A1E6959FB00B87CF3 /* XTProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTProfileController.h; sourceTree = "<group>"; };
+		5744564B1E6959FB00B87CF3 /* XTProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTProfileController.m; sourceTree = "<group>"; };
+		5744564D1E695A0800B87CF3 /* XTLoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLoginController.h; sourceTree = "<group>"; };
+		5744564E1E695A0800B87CF3 /* XTLoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLoginController.m; sourceTree = "<group>"; };
+		574456501E695DEF00B87CF3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		574456511E695DEF00B87CF3 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		574456521E695DEF00B87CF3 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		574456561E6967BF00B87CF3 /* XTTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTTabBar.h; sourceTree = "<group>"; };
+		574456571E6967BF00B87CF3 /* XTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTTabBar.m; sourceTree = "<group>"; };
+		574456601E69707000B87CF3 /* XTRecordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTRecordController.h; sourceTree = "<group>"; };
+		574456611E69707000B87CF3 /* XTRecordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTRecordController.m; sourceTree = "<group>"; };
+		574456631E69739D00B87CF3 /* XTSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTSelectedView.h; sourceTree = "<group>"; };
+		574456641E69739D00B87CF3 /* XTSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTSelectedView.m; sourceTree = "<group>"; };
+		574456661E69759000B87CF3 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		574456671E69759000B87CF3 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		5744568E1E6D3C1D00B87CF3 /* XTNewStarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTNewStarViewController.h; sourceTree = "<group>"; };
+		5744568F1E6D3C1D00B87CF3 /* XTNewStarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTNewStarViewController.m; sourceTree = "<group>"; };
+		574456911E6D3C3700B87CF3 /* XTHotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTHotViewController.h; sourceTree = "<group>"; };
+		574456921E6D3C3700B87CF3 /* XTHotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTHotViewController.m; sourceTree = "<group>"; };
+		574456941E6D3C4900B87CF3 /* XTCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTCareViewController.h; sourceTree = "<group>"; };
+		574456951E6D3C4900B87CF3 /* XTCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTCareViewController.m; sourceTree = "<group>"; };
+		574456971E6D5B6900B87CF3 /* XTLiveFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTLiveFlowLayout.h; sourceTree = "<group>"; };
+		574456981E6D5B6900B87CF3 /* XTLiveFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTLiveFlowLayout.m; sourceTree = "<group>"; };
 		84431E87F14F3F27DF157597 /* Pods-XTLiveTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XTLiveTV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XTLiveTV/Pods-XTLiveTV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +87,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				18AA02FC14B0984666350333 /* libPods-XTLiveTV.a in Frameworks */,
-				574455EF1E68202300B87CF3 /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,17 +123,18 @@
 		574455A61E67EEB600B87CF3 /* XTLiveTV */ = {
 			isa = PBXGroup;
 			children = (
+				574455C11E67F13700B87CF3 /* Main */,
 				574455BE1E67F13700B87CF3 /* Guide */,
 				574455BF1E67F13700B87CF3 /* Home */,
-				574455C01E67F13700B87CF3 /* Login */,
-				574455C11E67F13700B87CF3 /* Main */,
-				574455C21E67F13700B87CF3 /* Network */,
-				574455C31E67F13700B87CF3 /* Other */,
+				574456101E69118C00B87CF3 /* Live */,
+				574456181E69123500B87CF3 /* ShowTime */,
+				574456591E69705400B87CF3 /* Record */,
 				574455C41E67F13700B87CF3 /* Profile */,
+				574455C01E67F13700B87CF3 /* Login */,
+				574455C21E67F13700B87CF3 /* Network */,
 				574455C51E67F13700B87CF3 /* Resource */,
 				574455C61E67F13700B87CF3 /* Tools */,
-				574455AA1E67EEB600B87CF3 /* AppDelegate.h */,
-				574455AB1E67EEB600B87CF3 /* AppDelegate.m */,
+				574455C31E67F13700B87CF3 /* Other */,
 				574455B31E67EEB600B87CF3 /* Assets.xcassets */,
 				574455B51E67EEB600B87CF3 /* LaunchScreen.storyboard */,
 				574455B81E67EEB600B87CF3 /* Info.plist */,
@@ -141,6 +184,12 @@
 		574455C11E67F13700B87CF3 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				574456071E6910D400B87CF3 /* XTTabBarController.h */,
+				574456081E6910D400B87CF3 /* XTTabBarController.m */,
+				5744560A1E6910E500B87CF3 /* XTNavigationController.h */,
+				5744560B1E6910E500B87CF3 /* XTNavigationController.m */,
+				574456561E6967BF00B87CF3 /* XTTabBar.h */,
+				574456571E6967BF00B87CF3 /* XTTabBar.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -155,6 +204,9 @@
 		574455C31E67F13700B87CF3 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				574456501E695DEF00B87CF3 /* AppDelegate.h */,
+				574456511E695DEF00B87CF3 /* AppDelegate.m */,
+				574456521E695DEF00B87CF3 /* PrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -173,7 +225,6 @@
 		574455C51E67F13700B87CF3 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				574456061E6824E300B87CF3 /* PrefixHeader.pch */,
 				574455FC1E6820F400B87CF3 /* danmu.plist */,
 				574455FD1E6820F500B87CF3 /* login_video.mp4 */,
 				574455FE1E6820F500B87CF3 /* loginmovie.mp4 */,
@@ -185,6 +236,8 @@
 		574455C61E67F13700B87CF3 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				574456661E69759000B87CF3 /* UIView+Frame.h */,
+				574456671E69759000B87CF3 /* UIView+Frame.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -213,6 +266,8 @@
 		574455F31E6820A600B87CF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5744560D1E69110E00B87CF3 /* XTHomeController.h */,
+				5744560E1E69110E00B87CF3 /* XTHomeController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -234,6 +289,8 @@
 		574455F61E6820B400B87CF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5744564D1E695A0800B87CF3 /* XTLoginController.h */,
+				5744564E1E695A0800B87CF3 /* XTLoginController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -255,6 +312,8 @@
 		574455F91E6820C700B87CF3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5744564A1E6959FB00B87CF3 /* XTProfileController.h */,
+				5744564B1E6959FB00B87CF3 /* XTProfileController.m */,
 			);
 			name = Controller;
 			path = XTLiveTV/Profile/Controller;
@@ -276,10 +335,214 @@
 			path = XTLiveTV/Profile/View;
 			sourceTree = SOURCE_ROOT;
 		};
+		574456101E69118C00B87CF3 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				574456111E69118C00B87CF3 /* Controller */,
+				574456121E69118C00B87CF3 /* Model */,
+				574456131E69118C00B87CF3 /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		574456111E69118C00B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574456441E6959D600B87CF3 /* XTLiveController.h */,
+				574456451E6959D600B87CF3 /* XTLiveController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		574456121E69118C00B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		574456131E69118C00B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				574456971E6D5B6900B87CF3 /* XTLiveFlowLayout.h */,
+				574456981E6D5B6900B87CF3 /* XTLiveFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		574456181E69123500B87CF3 /* ShowTime */ = {
+			isa = PBXGroup;
+			children = (
+				574456191E69123500B87CF3 /* Controller */,
+				5744561A1E69123500B87CF3 /* Model */,
+				5744561B1E69123500B87CF3 /* View */,
+				574456761E6D332600B87CF3 /* Care */,
+				5744567A1E6D332600B87CF3 /* Hot */,
+				5744567E1E6D332600B87CF3 /* New */,
+			);
+			path = ShowTime;
+			sourceTree = "<group>";
+		};
+		574456191E69123500B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5744561C1E6914A500B87CF3 /* XTShowTimeController.h */,
+				5744561D1E6914A500B87CF3 /* XTShowTimeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5744561A1E69123500B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5744561B1E69123500B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				574456631E69739D00B87CF3 /* XTSelectedView.h */,
+				574456641E69739D00B87CF3 /* XTSelectedView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		574456591E69705400B87CF3 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				5744565A1E69705400B87CF3 /* Controller */,
+				5744565D1E69705400B87CF3 /* Model */,
+				5744565E1E69705400B87CF3 /* View */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		5744565A1E69705400B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574456601E69707000B87CF3 /* XTRecordController.h */,
+				574456611E69707000B87CF3 /* XTRecordController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5744565D1E69705400B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5744565E1E69705400B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		574456761E6D332600B87CF3 /* Care */ = {
+			isa = PBXGroup;
+			children = (
+				574456771E6D332600B87CF3 /* Controller */,
+				574456781E6D332600B87CF3 /* Model */,
+				574456791E6D332600B87CF3 /* View */,
+			);
+			path = Care;
+			sourceTree = "<group>";
+		};
+		574456771E6D332600B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574456941E6D3C4900B87CF3 /* XTCareViewController.h */,
+				574456951E6D3C4900B87CF3 /* XTCareViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		574456781E6D332600B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		574456791E6D332600B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5744567A1E6D332600B87CF3 /* Hot */ = {
+			isa = PBXGroup;
+			children = (
+				5744567B1E6D332600B87CF3 /* Controller */,
+				5744567C1E6D332600B87CF3 /* Model */,
+				5744567D1E6D332600B87CF3 /* View */,
+			);
+			path = Hot;
+			sourceTree = "<group>";
+		};
+		5744567B1E6D332600B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574456911E6D3C3700B87CF3 /* XTHotViewController.h */,
+				574456921E6D3C3700B87CF3 /* XTHotViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5744567C1E6D332600B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5744567D1E6D332600B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5744567E1E6D332600B87CF3 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				5744567F1E6D332600B87CF3 /* Controller */,
+				574456801E6D332600B87CF3 /* Model */,
+				574456811E6D332600B87CF3 /* View */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		5744567F1E6D332600B87CF3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5744568E1E6D3C1D00B87CF3 /* XTNewStarViewController.h */,
+				5744568F1E6D3C1D00B87CF3 /* XTNewStarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		574456801E6D332600B87CF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		574456811E6D332600B87CF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		91EC66C1AF116EDD6A6CEB59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				574455EE1E68202300B87CF3 /* IJKMediaFramework.framework */,
 				2D9FD72D83F7D8A938ADA9AF /* libPods-XTLiveTV.a */,
 			);
 			name = Frameworks;
@@ -314,6 +577,7 @@
 		5744559C1E67EEB600B87CF3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XT;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = victor;
 				TargetAttributes = {
@@ -411,8 +675,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574455AC1E67EEB600B87CF3 /* AppDelegate.m in Sources */,
+				574456991E6D5B6900B87CF3 /* XTLiveFlowLayout.m in Sources */,
+				574456931E6D3C3700B87CF3 /* XTHotViewController.m in Sources */,
+				574456091E6910D400B87CF3 /* XTTabBarController.m in Sources */,
+				574456461E6959D600B87CF3 /* XTLiveController.m in Sources */,
+				5744564F1E695A0800B87CF3 /* XTLoginController.m in Sources */,
+				574456621E69707000B87CF3 /* XTRecordController.m in Sources */,
+				574456581E6967BF00B87CF3 /* XTTabBar.m in Sources */,
+				574456681E69759000B87CF3 /* UIView+Frame.m in Sources */,
+				574456961E6D3C4900B87CF3 /* XTCareViewController.m in Sources */,
 				574455A91E67EEB600B87CF3 /* main.m in Sources */,
+				574456531E695DEF00B87CF3 /* AppDelegate.m in Sources */,
+				5744561E1E6914A500B87CF3 /* XTShowTimeController.m in Sources */,
+				5744560F1E69110E00B87CF3 /* XTHomeController.m in Sources */,
+				5744564C1E6959FB00B87CF3 /* XTProfileController.m in Sources */,
+				574456901E6D3C1D00B87CF3 /* XTNewStarViewController.m in Sources */,
+				5744560C1E6910E500B87CF3 /* XTNavigationController.m in Sources */,
+				574456651E69739D00B87CF3 /* XTSelectedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,6 +810,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = XTLiveTV/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = XTLiveTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -550,6 +830,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
+				GCC_PREFIX_HEADER = XTLiveTV/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = XTLiveTV/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
